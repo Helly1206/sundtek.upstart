@@ -1,0 +1,14 @@
+Sundtek upstart script
+
+This script syncronizes the upstart order of sundtek and tvheadend to prevent sundtek not being found by tvheadend
+
+To install, simply type:
+sudo install.sh
+
+Settings can be changed in /etc/default/sundtek
+# Enter the number of devices that need to be loaded
+NUMBER_OF_DEVICES=1
+# Enter the maximum number of seconds to wait
+MAXIMUM_WAIT=10
+
+Any remarks or questions, please e-mail me: hellyrulez@home.nl

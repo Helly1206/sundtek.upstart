@@ -1,0 +1,6 @@
+#Sundtek upstart script settings
+
+# Enter the number of devices that need to be loaded
+NUMBER_OF_DEVICES=1
+# Enter the maximum number of seconds to wait
+MAXIMUM_WAIT=10
