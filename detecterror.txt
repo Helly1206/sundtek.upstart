@@ -1,0 +1,7 @@
+Jul 19 10:07:18 helly-desktop tvheadend[3375]: subscription: 0003: No input source available for subscription "127.0.0.1 [ Helly | XBMC Media Center ]" to channel "RTL 4 HD"
+Jul 19 10:07:20 helly-desktop tvheadend[3375]: subscription: 0003: No input source available for subscription "127.0.0.1 [ Helly | XBMC Media Center ]" to channel "RTL 4 HD"
+Jul 19 10:07:21 helly-desktop tvheadend[3375]: http: 127.0.0.1: HTTP/1.1 GET /status.xml -- 401
+Jul 19 10:07:21 helly-desktop tvheadend[3375]: http: 127.0.0.1: HTTP/1.1 GET /status.xml -- 401
+Jul 19 10:07:22 helly-desktop tvheadend[3375]: subscription: 0003: No input source available for subscription "127.0.0.1 [ Helly | XBMC Media Center ]" to channel "RTL 4 HD"
+Jul 19 10:07:24 helly-desktop tvheadend[3375]: subscription: 0003: No input source available for subscription "127.0.0.1 [ Helly | XBMC Media Center ]" to channel "RTL 4 HD"
+

@@ -1,0 +1,1 @@
+start on (local-filesystems and net-device-up and started udev-finish and sundtek-ready)

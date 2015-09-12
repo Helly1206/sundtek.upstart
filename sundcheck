@@ -1,0 +1,11 @@
+#!/bin/bash
+
+while true; do
+	Result=$(/bin/mediaclient --lc|grep -A1 dvr0|tail -n 1)
+	if [ "$Result" == "  No client connected" ]; then
+		echo "Not up"
+	else
+		echo "Up"
+	fi
+	sleep 1
+done

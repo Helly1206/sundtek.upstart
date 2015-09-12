@@ -1,0 +1,8 @@
+#!/bin/bash
+tail -F /var/log/syslog | grep --line-buffered "No input source available for subscription" | while read line
+do
+  #service tvheadend restart
+  echo "No input, restart sundtek"
+  /bin/mediaclient --shutdown
+  /bin/mediaclient --start
+done
